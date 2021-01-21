@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.nav {
+    background-color: black;
+    display:flex;
+   height: 5rem;
+   
+}
+#fname{
+    color: chartreuse;
+    margin: auto;
+}
+.nav-item{
+    margin: auto;
+    
+}
+.nav h2{
+    color: cornsilk;
+    margin: auto;
+}
