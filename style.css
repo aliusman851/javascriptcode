@@ -3,10 +3,13 @@
     padding: 0%;
     font-family: sans-serif;
 }
+
+
 .nav {
     background-color: black;
     display:flex;
    height: 5rem;
+   
    
 }
 #fname{
@@ -60,6 +63,18 @@
     margin: auto;
     margin-top: 4px;
     width: 40%;
+   
+    padding: 10px;
+}
+#footer{
+    margin-top: 1rem;
+
+}
+.nav p{
+    color: crimson;
+    margin: auto;
+    margin-top: 4px;
+    width: 20%;
    
     padding: 10px;
 }
