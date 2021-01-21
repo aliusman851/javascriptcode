@@ -21,3 +21,45 @@
     color: cornsilk;
     margin: auto;
 }
+.blog1 p{
+    margin: auto;
+    margin-top: 4px;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+.blog1 h3{
+    margin: auto;
+    margin-top: 4px;
+    width: 40%;
+   
+    padding: 10px;
+}
+.blog2 p{
+    margin: auto;
+    margin-top: 4px;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+.blog2 h3{
+    margin: auto;
+    margin-top: 4px;
+    width: 40%;
+   
+    padding: 10px;
+}
+.blog3 p{
+    margin: auto;
+    margin-top: 4px;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+.blog3 h3{
+    margin: auto;
+    margin-top: 4px;
+    width: 40%;
+   
+    padding: 10px;
+}
