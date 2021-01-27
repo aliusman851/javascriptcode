@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog Site</title>
 </head>
-
 <body>
-    <nav>
-        <h1>A Backpackers diary</h1>
-    </nav>
-    <container class="welcome">
-        <div>
-            <h2>A great place to share<br /> the daily life of a backpacker</h2>
-        </div>
-    </container>
-    <!-- "section" is the blogpost's -->
-    <div class="flex-container">
-        <div class="blogframe">
-            <h3 contenteditable="true">Blog title here...</h3>
-            <p contenteditable="true">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae rem ipsum dolor quod, a repellendus aspernatur, ad vero incidunt dicta dolores eveniet officia esse laboriosam nisi magnam obcaecati quidem?</p>
-        </div>
-    </div>
-    <footer>
-        <p class="copyright">Copyright © 2021 A backpackers Diary</p>
-        </footer>
-</body>
+    <div class="container">
+        <header class="main-header" id="main-header">
+            <h1 id="blog-title">Javascript Blog</h1>
+            <p>How many posts do you want?</p>
+            <section class="flex-section">
+                <i class="fas fa-minus" id="delete"></i>
+                <input type="text" id="blogs-count-input">
+                <i class="fas fa-plus" id="add"></i>            
+            </section>
+        </header>
+        <main class="posts" id="posts">
+            
+        </main>
+        <aside class="side-menu" id="side-menu">
+            <p>Links to all posts</p>
+            <ul id="post-links">
 
+            </ul>
+        </aside>
+        <footer class="main-footer" id="main-footer">
+
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
 </html>
