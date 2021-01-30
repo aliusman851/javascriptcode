@@ -58,14 +58,11 @@ header {
     font-size: larger;
     color: brown;
 }
-article button{
+.delete{
     background-color: #008CBA;
     padding: 14px 40px;
    font-size: medium;
    margin-left: 25%;
    margin-top: 2rem;
+ }
  
-
-  
- 
-}
