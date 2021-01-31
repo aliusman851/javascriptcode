@@ -65,4 +65,13 @@ header {
    margin-left: 25%;
    margin-top: 2rem;
  }
+ .post-title{
+     border: solid;
+     border-color: chartreuse;
+     margin-right: 70%;
+     margin-left: 10%;
+     
+
+
+ }
  
